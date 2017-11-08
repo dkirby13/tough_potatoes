@@ -5,6 +5,9 @@ https://www.microsoft.com/en-us/store/p/ubuntu/9nblggh4msv6
 
 Then once downloaded open up the command window
 
+
+Note: all the stuff in blocks below just means type this at the ubuntu command line
+
 Download python on ubuntu:
 
 getting python dependencies:
