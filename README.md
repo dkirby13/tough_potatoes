@@ -1,6 +1,7 @@
 Setting up python for windows
 
-Download Ubunu Linux Emulator
+First, download Ubunu Linux Emulator here:
+https://www.microsoft.com/en-us/store/p/ubuntu/9nblggh4msv6
 
 Then once downloaded open up the command window
 
@@ -37,4 +38,11 @@ getting the github command line interface:
         sudo apt-get install git
 
 once you have a github account, let me know and I'll share the directory with you.
+clone this directory with this command:
+
+        git clone https://github.com/dkirby13/tough_potatoes.git
+        
+Then type in your github username and password
+
+If you have any questions either ask me or look it up online. There is a ton of online about this stuff.
 
