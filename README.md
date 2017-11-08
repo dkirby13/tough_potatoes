@@ -26,7 +26,7 @@ configuring python for your system:
         
         ./configure
         make
-        sudo checkinstall  #your sudo password is just your computer password
+        sudo checkinstall  #your sudo password is just your unix password
         
         
 getting pygame(the gaming module):
