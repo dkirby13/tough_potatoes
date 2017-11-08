@@ -22,6 +22,7 @@ downloading python:
         tar -xvf Python-$version.tgz
         cd Python-$version
 configuring python for your system:
+        
         ./configure
         make
         sudo checkinstall
