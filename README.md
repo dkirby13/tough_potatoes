@@ -25,4 +25,16 @@ configuring python for your system:
         
         ./configure
         make
-        sudo checkinstall
+        sudo checkinstall  #your sudo password is just your computer password
+        
+        
+getting pygame(the gaming module):
+        sudo apt-get install python-pygame
+        
+getting the github command line interface:
+        sudo apt-get update
+        sudo apt-get upgrade
+        sudo apt-get install git
+
+once you have a github account, let me know and I'll share the directory with you.
+
