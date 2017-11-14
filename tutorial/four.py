@@ -4,7 +4,7 @@ import pygame #importing the games package of python
 
 pygame.init() #initializes all the modules required for pygame
 
-screen = pygame.display.set_mode((400,300)) #launches a window of size 400, 300
+screen = pygame.display.set_mode((4000,3000)) #launches a window of size 4000, 3000
 done = False #initialize done to false
 is_blue = True #initialize the blueness
 x = 30 #initialize the x and y position
@@ -22,10 +22,10 @@ while not done: #starting the event loop: which waits for user input and reacts 
     pressed = pygame.key.get_pressed()   #this is a way to check if a key is currently being pushed down
     #note that in python decrease the value of y pushes it up on the screen on increasing it pushes it down
         
-    if pressed[pygame.K_UP]: y-=3
-    if pressed[pygame.K_DOWN]: y+=3
-    if pressed[pygame.K_LEFT]: x-=3
-    if pressed[pygame.K_RIGHT]: x+=3
+    if pressed[pygame.K_UP]: y-=30 
+    if pressed[pygame.K_DOWN]: y+=30
+    if pressed[pygame.K_LEFT]: x-=30
+    if pressed[pygame.K_RIGHT]: x+=30
 
     if is_blue: color = (0, 128, 255) #this checks if is_blue is true and sets the color value depending on if it is or not
     else: color = (255, 100, 0) #this is saying if it is not set to blue, set the color to orange
