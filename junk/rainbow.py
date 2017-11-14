@@ -29,6 +29,11 @@ class Player(pygame.sprite.Sprite):
 
        
 
+
+    def flip(self):
+        self.r = 255 - self.r
+        self.b = 255 - self.b
+        self.g = 255 - self.g
 # Player-controlled movement:
     def go_left(self):
         """ Called when the user hits the left arrow. """
@@ -151,6 +156,8 @@ def main():
                     player.go_up()
                 if event.key == pygame.K_DOWN:
                     player.go_down()
+                if event.key == pygame.K_SPACE:
+                    player.flip()
         
              
  

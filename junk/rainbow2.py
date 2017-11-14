@@ -27,7 +27,11 @@ class Player(pygame.sprite.Sprite):
         self.image.fill(self.color)
         self.rect = self.image.get_rect()
 
-       
+   
+    def flip(self):
+        self.r = 255 - self.r
+        self.b = 255 - self.b
+        self.g = 255 - self.g    
 
 # Player-controlled movement:
     def go_left(self):
@@ -151,6 +155,8 @@ def main():
                     player.go_up()
                 if event.key == pygame.K_DOWN:
                     player.go_down()
+                if event.key == pygame.K_SPACE:
+                    player.flip()
         
              
  
