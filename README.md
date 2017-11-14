@@ -3,6 +3,13 @@ Setting up python for windows
 First, download Ubunu Linux Emulator here:
 https://www.microsoft.com/en-us/store/p/ubuntu/9nblggh4msv6
 
+
+Before Downloading you have to enable the linux subsystem for windows. You can do this by typing:
+        Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+     
+At the windows powershell.
+
+
 Then once downloaded open up the command window
 
 
